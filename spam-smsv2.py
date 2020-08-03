@@ -32,10 +32,10 @@ def mapclub():
         print ("FAILED ATAU GAGAL")
         sys.exit()
 os.system("clear")
-time.sleep 1
+time.sleep(1)
 print ("[!] Loading Cuk...")
 print ("Orang sabar disayang tuhan:)")
-time.sleep 10
+time.sleep(10)
 os.system("clear")
 print ("""\033[1;97mSPAM SMS UNLIMITED
 \033[1;97mCreator:\033[1;96mMR.GRIMX72
