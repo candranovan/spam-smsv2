@@ -11,7 +11,7 @@ def marco():
     d={"phone":no}
     r = requests.post("https://www.idmarco.com/smsotp/login/sendotp/", data=d, headers=ua)
     if r:
-        print ("CROOT DI DALAM",no)
+        print ("CROOT DI DALAM NO",no)
 def mapclub():
     ua={
     "Host": "cmsapi.mapclub.com",
@@ -27,17 +27,16 @@ def mapclub():
     dat=json.dumps({"phone":no})
     r = requests.post("https://cmsapi.mapclub.com/api/signup-otp", data=dat, headers=ua).text
     if "ok" in r:
-        print ("CROOT DI DALAM",no)
+        print ("CROOT DI DALAM NO",no)
     else:
-        print ("FAILED")
+        print ("FAILED ATAU GAGAL")
         sys.exit()
 os.system("clear")
-print ("\033[1;97m  ___   ___     _     __  __     ___   __  __   ___ ")
-print ("\033[1;97m / __| | _ \   /_\   |  \/  |   / __| |  \/  | / __|")
-print ("\033[1;97m \__ \ |  _/  / _ \  | |\/| |   \__ \ | |\/| | \__ \")
-print ("\033[1;97m |___/ |_|   /_/ \_\ |_|  |_|   |___/ |_|  |_| |___/")
-
-
+time.sleep 1
+print ("[!] Loading Cuk...")
+print ("Orang sabar disayang tuhan:)")
+time.sleep 10
+os.system("clear")
 print ("""\033[1;97mSPAM SMS UNLIMITED
 \033[1;97mCreator:\033[1;96mMR.GRIMX72
 \033[1;97mYoutube:\033[1;96mBelum Ada
